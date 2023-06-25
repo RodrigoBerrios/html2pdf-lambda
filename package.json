@@ -1,0 +1,34 @@
+{
+  "name": "html2pdf-lambda",
+  "version": "1.1.1",
+  "description": "To convert HTML page to PDF generation library for AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZafraDev/html2pdf-lambda.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "html2pdf",
+    "nodejs",
+    "puppeteer",
+    "aws",
+    "serverless",
+    "lambda"
+  ],
+  "author": "Rodrigo Berrios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZafraDev/html2pdf-lambda/issues"
+  },
+  "homepage": "https://github.com/ZafraDev/html2pdf-lambda#readme",
+  "dependencies": {
+    "@sparticuz/chromium": "^113.0.1",
+    "inline-css": "^4.0.2",
+    "puppeteer-core": "^20.5.0"
+  }
+}
