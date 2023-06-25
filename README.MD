@@ -72,3 +72,6 @@ module.exports.handler = async (event) => {
 
 Promise which resolves with PDF buffer.
 
+**More Examples**
+
+You can see more examples [here](https://github.com/ZafraDev/html2pdf-lambda/tree/main/examples "here").
